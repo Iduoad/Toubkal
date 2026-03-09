@@ -1,9 +1,9 @@
-- type: default-flatpaks
-  configurations:
-    - notify: true 
-      scope: system
-      install: 
-        - app.zen_browser.zen
-        - io.mpv.Mpv
-        - org.wezfurlong.wezterm
-    - scope: user # Also add Flathub user repo, but no user packages
+type: default-flatpaks
+configurations:
+  - notify: true 
+    scope: system
+    install: 
+      - app.zen_browser.zen
+      - io.mpv.Mpv
+      - org.wezfurlong.wezterm
+  - scope: user # Also add Flathub user repo, but no user packages

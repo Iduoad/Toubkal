@@ -1,9 +1,11 @@
-- type: dnf
-  remove:
-    packages:
-      # environment
-      - game-music-emu 
-      - gamemode 
-      - headsetcontrol
-      - steam-devices
-      - vim
+type: dnf
+remove:
+  packages:
+    # environment
+    - game-music-emu 
+    - gamemode 
+    - headsetcontrol
+    - steam-devices
+    - vim
+    - firefox
+    - firefox-langpacks
