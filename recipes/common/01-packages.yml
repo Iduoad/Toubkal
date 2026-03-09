@@ -1,0 +1,23 @@
+- type: dnf
+  repos:
+    copr:
+      - atim/starship
+  install:
+    packages:
+      - micro
+      - starship
+      - neovim
+      # Audio
+      - pipewire-v4l2
+      - wiremix
+      # Containers & virt
+      - dmidecode
+      - edk2-ovmf
+      - incus
+      - libvirt
+      - podman-docker
+      - qemu
+      # Media
+      - mpd
+      - mpc
+      - ncmpcpp
