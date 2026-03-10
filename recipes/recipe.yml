@@ -8,5 +8,5 @@ modules:
   - from-file: common/00-files.yml
   - from-file: common/01-packages.yml
   - from-file: common/02-flatpaks.yml
-  - from-file: common/03-cleanup.yml
+  # - from-file: common/03-cleanup.yml
   - from-file: common/04-signing.yml
